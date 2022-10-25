@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+
+        body {
+            height: 100vh;
+            background-image: url("Cssimg/backgrounds-kung-fu-panda-.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+        .top {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: flex-start;
+
+            height: 94vh;
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin: 10px 0px 15px;
+            text-align: center;
+        }
+
+        .desk {
+
+            /* margin: 5px 4px 2px 4px; */
+            width: 50px;
+            height: 50px;
+        }
+
+        .icon-text {
+            font-size: 12px;
+            color: white;
+            border-color: black;
+            /* height: 0px; */
+            width: 75px;
+            /* padding: 0px 5px; */
+            text-align: center;
+        }
+
+
+        .bottom {
+            background-color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            width: 100vw;
+            /* position: absolute; we can't use it for bottom bcz it seprate bottom container from body */
+            /* bottom: 0px; */
+            justify-content: space-between;
+
+            height: 6vh;
+            overflow: hidden;
+
+        }
+
+        .bot-icon {
+
+            padding: 6px;
+        }
+
+        .res {
+
+            /* margin: 0px 8px 0px 8px; */
+            width: 27px;
+            height: 27px;
+        }
+
+        .start {
+            width: 10vw;
+            align-items: center;
+        }
+
+        .middle {
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 72vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .last {
+            width: 18vw;
+            background-color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .last-icon {
+            text-align: center;
+            font-size: 0.8vw;
+            margin: 0px 3px;
+
+        }
+
+        .last-res {
+
+            /* margin: 0px 8px 0px 8px; */
+            width: 17px;
+            height: 17px;
+        }
+
+
+        #date {
+            width: 51px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+
+
+        <div class="icon">
+            <img class="desk" src="Cssimg/icons8-microsoft-edge-48.png">
+            <p class="icon-text">Microsoft-Edge</p>
+        </div>
+        <div class="icon">
+            <img class="desk" src="Cssimg/icons8-recycle-bin-48.png">
+            <p class="icon-text">Recycle-bin</p>
+        </div>
+
+        <div class="icon">
+            <img class="desk" src="Cssimg/icons8-file-explorer-48.png">
+
+            <p class="icon-text"> File-Explorer</p>
+
+        </div>
+        <div class="icon">
+            <img class="desk" src="Cssimg/logo-512x512_microsoft-store.png">
+            <p class="icon-text">Microsoft Store</p>
+        </div>
+
+        <div class="icon">
+            <img class="desk" src="Cssimg/icons8-brave-web-browser-48.png">
+            <p class="icon-text">Brave</p>
+        </div>
+
+        <div class="icon">
+            <img class="desk" src="Cssimg/google-chrome-icon.png">
+            <p class="icon-text">Google Chrome</p>
+        </div>
+        <div class="icon">
+            <img class="desk" src="Cssimg/vscode.png">
+            <p class="icon-text">Visual Studio Code</p>
+        </div>
+        <div class="icon">
+            <img class="desk" class="res" src="Cssimg/icons8-vmware-workstation-player-48.png">
+            <p class="icon-text">VMware Workstation..</p>
+        </div>
+
+        <div class="icon">
+            <img class="desk" src="Cssimg/icons8-adobe-photoshop-48.png">
+            <p class="icon-text">PhotoShop</p>
+        </div>
+
+    </div>
+
+
+    <div class="bottom">
+        <div class="start">
+            <img class="res" src="Cssimg/icons8-clouds-50.png">
+            <span> 29`C cloudy </span>
+        </div>
+        <div class="middle">
+
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-windows-11-48.png">
+            </div>
+
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-search-32.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-task-view-48.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-microsoft-edge-48.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-file-explorer-48.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/logo-512x512_microsoft-store.png">
+            </div>
+
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/google-chrome-icon.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/vscode.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-vmware-workstation-player-48.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-adobe-photoshop-48.png">
+            </div>
+
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-recycle-bin-48.png">
+            </div>
+            <div class="bot-icon">
+                <img class="res" src="Cssimg/icons8-brave-web-browser-48.png">
+            </div>
+        </div>
+
+        <div class="last">
+
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-collapse-arrow-30.png">
+            </div>
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-cloud-48.png">
+            </div>
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-microphone-24.png">
+            </div>
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-wi-fi-48.png">
+            </div>
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-speaker-48.png">
+            </div>
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-battery-level-48.png">
+            </div>
+            <div class="last-icon">
+                <time> 16:13
+
+                </time>
+                <br>
+                <div id="date"> 09-10-2022</div>
+            </div>
+
+            <div class="last-icon">
+                <img class="last-res" src="Cssimg/icons8-dark-mode-24.png">
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
